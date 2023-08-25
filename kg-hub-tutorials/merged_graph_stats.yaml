@@ -1,0 +1,341 @@
+edge_stats:
+  count_by_predicates:
+    biolink:related_to:
+      count: 2796
+      provided_by:
+        unknown:
+          count: 2796
+      source:
+        unknown:
+          count: 2796
+    biolink:subclass_of:
+      count: 29683
+      provided_by:
+        unknown:
+          count: 29683
+      source:
+        unknown:
+          count: 29683
+    biolink:type:
+      count: 45
+      provided_by:
+        unknown:
+          count: 45
+      source:
+        unknown:
+          count: 45
+    unknown:
+      count: 0
+  count_by_spo:
+    biolink:AnatomicalEntity-biolink:related_to-biolink:AnatomicalEntity:
+      count: 631
+      provided_by:
+        unknown:
+          count: 631
+      source:
+        unknown:
+          count: 631
+    biolink:AnatomicalEntity-biolink:subclass_of-biolink:AnatomicalEntity:
+      count: 839
+      provided_by:
+        unknown:
+          count: 839
+      source:
+        unknown:
+          count: 839
+    biolink:AnatomicalEntity-biolink:subclass_of-biolink:NamedThing:
+      count: 32
+      provided_by:
+        unknown:
+          count: 32
+      source:
+        unknown:
+          count: 32
+    biolink:AnatomicalEntity-biolink:subclass_of-biolink:OntologyClass:
+      count: 2
+      provided_by:
+        unknown:
+          count: 2
+      source:
+        unknown:
+          count: 2
+    biolink:ChemicalSubstance-biolink:subclass_of-biolink:ChemicalSubstance:
+      count: 1361
+      provided_by:
+        unknown:
+          count: 1361
+      source:
+        unknown:
+          count: 1361
+    biolink:ChemicalSubstance-biolink:subclass_of-biolink:OntologyClass:
+      count: 6
+      provided_by:
+        unknown:
+          count: 6
+      source:
+        unknown:
+          count: 6
+    biolink:OntologyClass-None-biolink:OntologyClass:
+      count: 258
+      provided_by:
+        unknown:
+          count: 258
+      source:
+        unknown:
+          count: 258
+    biolink:OntologyClass-biolink:related_to-biolink:AnatomicalEntity:
+      count: 36
+      provided_by:
+        unknown:
+          count: 36
+      source:
+        unknown:
+          count: 36
+    biolink:OntologyClass-biolink:related_to-biolink:ChemicalSubstance:
+      count: 182
+      provided_by:
+        unknown:
+          count: 182
+      source:
+        unknown:
+          count: 182
+    biolink:OntologyClass-biolink:related_to-biolink:OntologyClass:
+      count: 1929
+      provided_by:
+        unknown:
+          count: 1929
+      source:
+        unknown:
+          count: 1929
+    biolink:OntologyClass-biolink:related_to-biolink:OrganismalEntity:
+      count: 18
+      provided_by:
+        unknown:
+          count: 18
+      source:
+        unknown:
+          count: 18
+    biolink:OntologyClass-biolink:subclass_of-biolink:AnatomicalEntity:
+      count: 3
+      provided_by:
+        unknown:
+          count: 3
+      source:
+        unknown:
+          count: 3
+    biolink:OntologyClass-biolink:subclass_of-biolink:ChemicalSubstance:
+      count: 11
+      provided_by:
+        unknown:
+          count: 11
+      source:
+        unknown:
+          count: 11
+    biolink:OntologyClass-biolink:subclass_of-biolink:NamedThing:
+      count: 13
+      provided_by:
+        unknown:
+          count: 13
+      source:
+        unknown:
+          count: 13
+    biolink:OntologyClass-biolink:subclass_of-biolink:OntologyClass:
+      count: 5433
+      provided_by:
+        unknown:
+          count: 5433
+      source:
+        unknown:
+          count: 5433
+    biolink:OntologyClass-biolink:subclass_of-biolink:OrganismalEntity:
+      count: 1
+      provided_by:
+        unknown:
+          count: 1
+      source:
+        unknown:
+          count: 1
+    biolink:OntologyClass-biolink:type-biolink:OntologyClass:
+      count: 45
+      provided_by:
+        unknown:
+          count: 45
+      source:
+        unknown:
+          count: 45
+    biolink:OrganismalEntity-biolink:subclass_of-biolink:OntologyClass:
+      count: 5
+      provided_by:
+        unknown:
+          count: 5
+      source:
+        unknown:
+          count: 5
+    biolink:OrganismalEntity-biolink:subclass_of-biolink:OrganismalEntity:
+      count: 201
+      provided_by:
+        unknown:
+          count: 201
+      source:
+        unknown:
+          count: 201
+    biolink:PhenotypicFeature-biolink:subclass_of-biolink:PhenotypicFeature:
+      count: 21776
+      provided_by:
+        unknown:
+          count: 21776
+      source:
+        unknown:
+          count: 21776
+  predicates:
+  - biolink:related_to
+  - biolink:subclass_of
+  - biolink:type
+  provided_by:
+  - unknown
+  source:
+  - unknown
+  total_edges: 32782
+graph_name: kg_hub_learning graph
+node_stats:
+  count_by_category:
+    biolink:AnatomicalEntity:
+      count: 596
+      provided_by:
+        envo.json:
+          count: 596
+    biolink:ChemicalSubstance:
+      count: 930
+      provided_by:
+        envo.json:
+          count: 930
+    biolink:NamedThing:
+      count: 3
+      provided_by:
+        Graph:
+          count: 3
+    biolink:OntologyClass:
+      count: 5551
+      provided_by:
+        envo.json:
+          count: 5541
+        hp.json:
+          count: 29
+    biolink:OrganismalEntity:
+      count: 204
+      provided_by:
+        envo.json:
+          count: 204
+    biolink:PhenotypicFeature:
+      count: 17876
+      provided_by:
+        hp.json:
+          count: 17876
+    unknown:
+      count: 0
+  count_by_id_prefixes:
+    BFO: 34
+    CARO: 3
+    CHEBI: 930
+    ENVO: 4340
+    FAO: 1
+    FOODON: 420
+    GO: 44
+    HP: 17876
+    IAO: 26
+    NCBITaxon: 204
+    OBI: 6
+    OBO: 9
+    OIO: 15
+    PATO: 402
+    PCO: 8
+    PO: 48
+    RO: 194
+    UBERON: 596
+    WD_Entity: 4
+  count_by_id_prefixes_by_category:
+    biolink:AnatomicalEntity:
+      UBERON: 596
+    biolink:ChemicalSubstance:
+      CHEBI: 930
+    biolink:NamedThing:
+      CARO: 3
+    biolink:OntologyClass:
+      BFO: 34
+      ENVO: 4340
+      FAO: 1
+      FOODON: 420
+      GO: 44
+      IAO: 26
+      OBI: 6
+      OBO: 9
+      OIO: 15
+      PATO: 402
+      PCO: 8
+      PO: 48
+      RO: 194
+      WD_Entity: 4
+    biolink:OrganismalEntity:
+      NCBITaxon: 204
+    biolink:PhenotypicFeature:
+      HP: 17876
+    unknown: {}
+  node_categories:
+  - biolink:AnatomicalEntity
+  - biolink:ChemicalSubstance
+  - biolink:NamedThing
+  - biolink:OntologyClass
+  - biolink:OrganismalEntity
+  - biolink:PhenotypicFeature
+  node_id_prefixes:
+  - BFO
+  - CARO
+  - CHEBI
+  - ENVO
+  - FAO
+  - FOODON
+  - GO
+  - HP
+  - IAO
+  - NCBITaxon
+  - OBI
+  - OBO
+  - OIO
+  - PATO
+  - PCO
+  - PO
+  - RO
+  - UBERON
+  - WD_Entity
+  node_id_prefixes_by_category:
+    biolink:AnatomicalEntity:
+    - UBERON
+    biolink:ChemicalSubstance:
+    - CHEBI
+    biolink:NamedThing:
+    - CARO
+    biolink:OntologyClass:
+    - BFO
+    - GO
+    - IAO
+    - RO
+    - OBO
+    - OIO
+    - ENVO
+    - WD_Entity
+    - FAO
+    - FOODON
+    - OBI
+    - PATO
+    - PCO
+    - PO
+    biolink:OrganismalEntity:
+    - NCBITaxon
+    biolink:PhenotypicFeature:
+    - HP
+    unknown: []
+  provided_by:
+  - Graph
+  - envo.json
+  - hp.json
+  total_nodes: 25160
